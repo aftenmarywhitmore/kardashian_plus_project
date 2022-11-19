@@ -1,4 +1,3 @@
-#routes
 from flask import Blueprint, request, jsonify
 from kardash_plus_inventory.helpers import token_required 
 from kardash_plus_inventory.models import db, Kardashian, kardashian_schema, kardashians_schema
@@ -34,7 +33,7 @@ def create_kardashian(current_user_token):
     response = kardashian_schema.dump(kardashian) 
 
     return jsonify(response) 
-#GET kardashians
+
 @api.route('/kardashians', methods = ['GET'])
 @token_required
 def get_kardashians(current_user_token):
@@ -44,7 +43,7 @@ def get_kardashians(current_user_token):
     return jsonify(response) 
 
 
-#Retrieve kardashians
+
 @api.route('/kardashians/<id>', methods = ['GET'])
 @token_required
 def get_kardashian(current_user_token, id):
@@ -56,7 +55,6 @@ def get_kardashian(current_user_token, id):
     else:
         return jsonify({'message': 'Valid Token Required'}), 401
 
-#Update kardashian Endpoint
 
 @api.route('kardashians/<id>', methods = ['POST', 'PUT'])
 @token_required
@@ -76,8 +74,6 @@ def update_kardashian(current_user_token, id):
     response = kardashian_schema.dump(kardashian)
     return jsonify(response)
 
-
-#Delete kardashian Endpoint
 
 @api.route('/kardashians/<id>', methods = ["DELETE"])
 @token_required

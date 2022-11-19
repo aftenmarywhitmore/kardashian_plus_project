@@ -16,7 +16,7 @@ The third is telling Flask where to find the html to render.
 """
 
 @site.route('/')
-#this just goes to our Homepage
+
 
 def home():
     return render_template('index.html')
@@ -27,4 +27,3 @@ def home():
 def profile():
     return render_template('profile.html')
 
-#set whats in @site.route() to be same as def based on what I need for final project organization

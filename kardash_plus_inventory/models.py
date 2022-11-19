@@ -39,12 +39,12 @@ class User(db.Model, UserMixin):
         return secrets.token_hex(length) 
 
     def set_id(self):
-        return str(uuid.uuid4()) #creates a random id for us so we don't have to do it? Idk what this is...google later https://docs.python.org/3/library/uuid.html
+        return str(uuid.uuid4()) 
 
     def set_password(self, password):
         self.pw_hash = generate_password_hash(password)
         return self.pw_hash 
-        #what in the motherlickin frick is going on
+        
 
     def __repr__(self):
         return f"User {self.email} has been added to the database!"

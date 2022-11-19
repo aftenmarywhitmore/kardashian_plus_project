@@ -13,7 +13,3 @@ class UserLoginForm(FlaskForm):
 
 
 
-#Email, Password, and Submit Button all on this page 
-#Make sure Flask-WTF is pip installed
-#Import FlaskForm
-#Import StringField, PasswordField, SubmitField (aka email, password, and submit button)

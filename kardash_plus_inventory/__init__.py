@@ -16,11 +16,11 @@ app.register_blueprint(api)
 
 app.config.from_object(Config)
 
-root_db.init_app(app) #instantiating our database and getting our application ready to work with database 
+root_db.init_app(app) 
 migrate = Migrate(app, root_db)
 
 login_manager.init_app(app)
-login_manager.login_view = "auth.signin" #if they're not signed in, this is what they will see 
+login_manager.login_view = "auth.signin" 
 
 ma.init_app(app)
 app.json_encoder = JSONEncoder

@@ -1,12 +1,10 @@
-/*Nav Styles*/
-
 .nav1{
     display: flex;
     justify-content: space-between;
 
 }
 
-/*Target Main Logo Image*/
+
 .nav1 img{
     width: 300px;
     max-width: 100%;
@@ -42,10 +40,6 @@ ul#horizontal-list a:nth-last-child(1){
 
 }
 
-/*End of Nav Styles*/
-
-/*Start of Hero/Header Section*/
-/*Profile Styles*/
 
 
 .header-text{
@@ -67,10 +61,8 @@ ul#horizontal-list a:nth-last-child(1){
 #header-image{
     max-width: 100%;
 }
-/*End of Hero/Header Section*/
 
 
-/*Start of Middle Section */
 #middle-text{
     text-align: center;
     padding: 8vh;
@@ -83,9 +75,7 @@ ul#horizontal-list a:nth-last-child(1){
 #middle-text h2{
     padding: 1.5vw;
 }
-/*End of Middle Section */
 
-/*Start of Feature Styles Section  */
 #pete-image{
     margin-bottom: 5vh;
     width: 300px;
@@ -110,22 +100,20 @@ ul#horizontal-list a:nth-last-child(1){
     margin-bottom: 5vh;
     margin-right:3vw;
 }
-/*End of Feature Styles Section*/
 
-/*Community Styles Section*/
 #kanye-image{
     width: 100%;
     max-width: 100%;
     margin-left: 3vw;
 }
-/*End of Community Styles Section*/
+
 
 #krazies-btn{
     border-radius:7px;
     color: black;
 }
 
-/*Start of Footer Section*/
+
 .footer-text-flex{
     display: inline;
     flex-direction: column; 
