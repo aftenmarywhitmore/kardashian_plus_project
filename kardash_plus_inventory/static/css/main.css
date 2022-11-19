@@ -1,0 +1,154 @@
+/*Nav Styles*/
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*Target Main Logo Image*/
+.nav1 img{
+    width: 300px;
+    max-width: 100%;
+    margin-left: 5vw;
+    border-radius:15px;
+    margin-top: 40px;
+    
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    margin-top:20px;
+    
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 1vw;
+    color: black; 
+    margin-right:1vw;
+    background-color: pink;
+    border-radius: 7px;
+    
+    
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid black;
+    margin-right: 2vw;
+
+}
+
+/*End of Nav Styles*/
+
+/*Start of Hero/Header Section*/
+/*Profile Styles*/
+
+
+.header-text{
+    display: flex; 
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem; 
+    top: 10rem;
+    color: black;
+    margin-top: 7vw;
+}
+
+.btn{
+    border: 2px solid black;
+    background-color: pink;
+    margin: 5px;
+}
+
+#header-image{
+    max-width: 100%;
+}
+/*End of Hero/Header Section*/
+
+
+/*Start of Middle Section */
+#middle-text{
+    text-align: center;
+    padding: 8vh;
+    border: 2px dotted black;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    background-color: pink;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+/*End of Middle Section */
+
+/*Start of Feature Styles Section  */
+#pete-image{
+    margin-bottom: 5vh;
+    width: 300px;
+    max-width: 100%;
+}
+
+#koko-image{
+    margin-bottom: 5vh;
+    width: 300px;
+    max-width: 100%;
+}
+
+#kris-image{
+    margin-bottom: 5vh;
+    width: 300px;
+    max-width: 100%;
+}
+
+#features-section{
+    margin: 12vw; 
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right:3vw;
+}
+/*End of Feature Styles Section*/
+
+/*Community Styles Section*/
+#kanye-image{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 3vw;
+}
+/*End of Community Styles Section*/
+
+#krazies-btn{
+    border-radius:7px;
+    color: black;
+}
+
+/*Start of Footer Section*/
+.footer-text-flex{
+    display: inline;
+    flex-direction: column; 
+    margin-top: 3vw;
+   
+}
+
+#footer-logo{
+    width: 500px;
+    max-width: 100%;
+}
+
+#footer{
+    border: 3px dotted black;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left:3vw;
+    margin-right:3vw;
+    text-align: center;
+    padding: 5vh;
+    background-color: pink;
+    font-size: 10pt;
+}
+
+
+
