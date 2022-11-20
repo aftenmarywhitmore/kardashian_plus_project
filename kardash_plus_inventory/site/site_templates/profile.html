@@ -16,13 +16,15 @@
 {% endwith %}
 
 <header class = "hero-section">
-    <h3 class="header-text">Welcome to Kardashians Plus, {{ current_user.email }} test@gmail.com!</h3>
+    <h3 class="header-text">Welcome to Kardashians Plus, {{ current_user.email }} !</h3>
 </header>
 
 <div class = "container">
+</br>
     <h3>Here are your profile details:</h3>
     <ul class="list-group">
-        <li class="list-group-item">Email:test@gmail.com: {{ current_user.email }}</li>
+    </br>
+        <li class="list-group-item">Email: {{ current_user.email }}</li>
         <li class="list-group-item">Token: {{ current_user.token }}  </li>
     </ul>
 </div>

@@ -45,11 +45,17 @@ ul#horizontal-list a:nth-last-child(1){
 .header-text{
     display: flex; 
     justify-content: center;
-    padding-top: 20%;
     left: 20rem; 
     top: 10rem;
     color: black;
-    margin-top: 7vw;
+    background-color: pink;
+    margin-top: 5vw;
+}
+
+
+.list-group-item{
+    border: 2px dotted black;
+    background-color:pink;
 }
 
 .btn{
